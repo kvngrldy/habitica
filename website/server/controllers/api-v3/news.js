@@ -4,7 +4,7 @@ const api = {};
 
 // @TODO export this const, cannot export it from here because only routes are exported from
 // controllers
-const LAST_ANNOUNCEMENT_TITLE = 'SEPTEMBER BACKGROUNDS AND ARMOIRE ITEMS!';
+const LAST_ANNOUNCEMENT_TITLE = 'GUILD AND USE CASE SPOTLIGHTS!';
 const worldDmg = { // @TODO
   bailey: false,
 };
@@ -31,24 +31,43 @@ api.getNews = {
           <div class="mr-3 ${baileyClass}"></div>
           <div class="media-body">
             <h1 class="align-self-center">${res.t('newStuff')}</h1>
-            <h2>9/8/2020 - ${LAST_ANNOUNCEMENT_TITLE}</h2>
+            <h2>9/17/2020 - ${LAST_ANNOUNCEMENT_TITLE}</h2>
           </div>
         </div>
         <hr/>
-        <div class="promo_armoire_backgrounds_202009 center-block"></div>
+        <div class="scene_squall center-block"></div>
+        <h3>Guild Spotlight: Squall's Favorites</h3>
         <p>
-          We’ve added three new backgrounds to the Background Shop! Now your avatar can perch on a
-          Giant Leaf, mingle with a Herd of Sheep, and enjoy the view while Flying Over an Autumn
-          Forest. Find them via Menu > Inventory > Customize Avatar on mobile!
+          For this year's Guild Spotlight series, we're highlighting some favorites from Habitica's
+          staff, moderators, and some high-level contributors!
         </p>
         <p>
-          Plus, there’s new Gold-purchasable equipment in the Enchanted Armoire, including the
-          Guardian of the Grazers Set. Better work hard on your real-life tasks to earn all the
-          pieces! Enjoy :)
+          This month we're sharing some <a
+          href='https://habitica.wordpress.com/2020/09/17/guild-spotlights-our-favourites-8/'
+          target='_blank'>picks from Champion Blacksmith Squall!</a> If you want to curate your
+          Habitica experience and join active, positive Guilds, this is a great way to pick up some
+          new ideas for Guilds to join.
         </p>
-        <div class="small mb-3">
-          by Daikagaru, Eslyn, AnnDeLune, sarajea, Tigergurke, QuartzFox, shanaqui, and SabreCat
-        </div>
+        <div class='small mb-3'>by shanaqui</div>
+        <div class='scene_positivity center-block'></div>
+        <h3>Use Case Spotlight: Creating Positivity</h3>
+        <p>
+          This month's <a
+          href='https://habitica.wordpress.com/2020/09/17/use-case-spotlight-creating-positivity/'
+          target='_blank'>Use Case Spotlight</a> is about Creating Positivity! It features a number
+          of great suggestions submitted by Habiticans in the <a
+          href='/groups/guild/1d3a10bf-60aa-4806-a38b-82d1084a59e6'>Use Case Spotlights Guild</a>.
+          We hope it helps any of you who might be looking for ways to foster motivation and a good
+          mood.
+        </p>
+        <p>
+          Plus, we're collecting user submissions for the next spotlight! How do you use Habitica
+          to make time for and manage your hobbies? We’ll be featuring player-submitted examples in
+          Use Case Spotlights on the Habitica Blog next month, so post your suggestions in the Use
+          Case Spotlight Guild now. We look forward to learning more about how you use Habitica to
+          improve your life and get things done!
+        </p>
+        <div class="small mb-3">by shanaqui</div>
       </div>
       `,
     });
